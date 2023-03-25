@@ -1,0 +1,18 @@
+<pre>
+  BIP: 0
+  Title: isProtected
+  Author: Timothy Lim <timothy.lim@bitmark-association.org>
+  Status: Draft
+  Created: 2023-03-25
+</pre>
+
+==Proposed changes==
+
+In BIP 0, the following new properties are proposed:
+* isProtected: boolean
+
+==Motivation==
+
+* isProtected: boolean (optional, non-breaking)
+To indicate whether the resource is protected. We propose <code>isProtected</code> as opposed to <code>isPasswordProtected</code> or <code>authenticationRequired</code> in order to be technology agnostic. 
+
